@@ -1,4 +1,4 @@
-## Django is a ready-to-use sample project on Beget.ru.
+## Sample Django project for uploading to Beget.ru
 ### You just need to upload these files into `public_html` folder and change the necessary parts.
 
 #### After you upload these files to Beget hosting, you need to make a couple of changes.

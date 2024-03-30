@@ -1,0 +1,3 @@
+PassengerEnabled On
+PassengerAppRoot /home/your_letter/your_username/your_domain/public_html/django_project/django_project
+PassengerPython /home/your_letter/your_username/your_domain/public_html/venv/bin/python

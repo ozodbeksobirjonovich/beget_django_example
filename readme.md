@@ -42,6 +42,8 @@ INSTALLED_APPS = [
 ]
  ```
 
+5. After uploading the project, recreate the `restart.txt` file inside the `~\beget_django_example\django_project\django_project\tmp` folder to reload the site.
+
 #### Versions:
 - Django==4.2.6
 - whitenoise==6.6.0    <---- This library is for static files to run on the server

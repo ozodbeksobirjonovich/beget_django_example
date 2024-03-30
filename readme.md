@@ -4,13 +4,13 @@
 #### After you upload these files to Beget hosting, you need to make a couple of changes.
 
 1. Download the virtual environment (venv) from here and load it into `public_html`: https://cloud.mail.ru/public/9BjJ/EHUvSLQz7
-2. Modify this code -> `.htaccess`:
+2. Modify -> `.htaccess`:
 ```
 PassengerEnabled On
 PassengerAppRoot /home/your_letter/your_username/your_domain/public_html/django_project/django_project
 PassengerPython /home/your_letter/your_username/your_domain/public_html/venv/bin/python
 ```
-3. After modify this code -> `~\beget_django_example\django_project\django_project\passenger_wsgi.py`:
+3. Modify -> `~\beget_django_example\django_project\django_project\passenger_wsgi.py`:
 ```
 import os, sys
 site_user_root_dir = '/home/your_letter/your_username/your_domain/public_html'
@@ -20,7 +20,7 @@ os.environ['DJANGO_SETTINGS_MODULE'] = 'django_project.settings'
 from django.core.wsgi import get_wsgi_application
 application = get_wsgi_application()
 ```
-4. Finally, modify this code -> ``:
+4. Modify -> ``:
  ```
 from pathlib import Path
 import os

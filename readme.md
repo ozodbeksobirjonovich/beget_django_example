@@ -49,4 +49,9 @@ INSTALLED_APPS = [
 - whitenoise==6.6.0    <---- This library is for static files to run on the server
 
 ## That's it. Everything works...
+
+#### Admin Panel:
+- Login: admin
+- Password: admin
+
 #### If you have any problems, you can write on Telegram: https://t.me/ozodbek_sobirjonovich

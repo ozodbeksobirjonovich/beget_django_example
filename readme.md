@@ -20,7 +20,7 @@ os.environ['DJANGO_SETTINGS_MODULE'] = 'django_project.settings'
 from django.core.wsgi import get_wsgi_application
 application = get_wsgi_application()
 ```
-4. Modify -> ``:
+4. Modify -> `~\beget_django_example\django_project\django_project\settings.py`:
  ```
 from pathlib import Path
 import os
